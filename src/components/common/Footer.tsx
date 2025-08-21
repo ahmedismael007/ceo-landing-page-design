@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer className="bg-primary pt-20 pb-5">
+        <footer className="bg-gradient-to-r from-[#997A00] to-[#FFCC00] pt-20 pb-5">
             <div className="mx-auto w-full max-w-screen-xl">
                 <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
                     <div>
