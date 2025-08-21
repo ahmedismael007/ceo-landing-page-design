@@ -70,7 +70,7 @@ const Features = () => {
           {features.map((feature) => (
             <div
               key={feature.id}
-              className="ring-2 ring-white bg-gradient-to-br from-[#c0af6c] to-[#cebe7d] rounded-3xl p-10 flex gap-5 hover:scale-110 transition-all duration-700"
+              className="ring-2 ring-white bg-gradient-to-br from-[#c0af6c] to-[#cebe7d] text-secondary rounded-3xl p-10 flex gap-5 hover:scale-110 transition-all duration-700"
             >
               <div className="w-20 shrink-0 text-slate-900">
                 <Image

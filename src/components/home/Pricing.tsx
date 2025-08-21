@@ -41,14 +41,14 @@ const Pricing = () => {
                 <div className="bg-secondary shadow rounded-full p-1 flex gap-2">
                     <button
                         onClick={() => setYearly(false)}
-                        className={`px-6 py-2 rounded-full cursor-pointer transition ${!yearly ? "bg-gradient-to-r from-[#997A00] to-[#FFCC00] text-white" : "text-gray-400"
+                        className={`px-6 py-2 rounded-full cursor-pointer transition ${!yearly ? "bg-gradient-to-r from-[#997A00] to-[#FFCC00] text-secondary" : "text-gray-400"
                             }`}
                     >
                         Monthly
                     </button>
                     <button
                         onClick={() => setYearly(true)}
-                        className={`px-6 py-2 rounded-full cursor-pointer  transition ${yearly ? "bg-gradient-to-r from-[#997A00] to-[#FFCC00] text-white" : "text-gray-400"
+                        className={`px-6 py-2 rounded-full cursor-pointer  transition ${yearly ? "bg-gradient-to-r from-[#997A00] to-[#FFCC00] text-secondary" : "text-gray-400"
                             }`}
                     >
                         Yearly (10% Discount)
@@ -72,7 +72,7 @@ const Pricing = () => {
                         <p className="text-gray-400 text-sm mb-6">
                             {plan.price}$ per employee
                         </p>
-                        <button className="mt-auto bg-gradient-to-r from-[#997A00] to-[#FFCC00] text-white py-2 rounded-xl hover:opacity-90 transition cursor-pointer ">
+                        <button className="mt-auto bg-gradient-to-r from-[#997A00] to-[#FFCC00] text-secondary py-2 rounded-xl hover:opacity-90 transition cursor-pointer ">
                             Subscribe Now
                         </button>
                     </div>
