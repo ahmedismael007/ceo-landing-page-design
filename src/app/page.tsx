@@ -8,8 +8,8 @@ export default function Page() {
   return (
     <main className="grid grid-cols-1 gap-20">
       <Header />
-      <Features />
       <WhoAreWe />
+      <Features />
       <Services />
       <Pricing />
     </main>
